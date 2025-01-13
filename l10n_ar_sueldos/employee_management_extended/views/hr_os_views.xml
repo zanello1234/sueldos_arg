@@ -1,0 +1,30 @@
+<!-- views/hr_os_views.xml -->
+<odoo>
+    <!-- Menús -->
+    <record id="menu_hr_localization_root" model="ir.ui.menu">
+        <field name="name">Localización RRHH</field>
+        <field name="parent_id" ref="hr.menu_hr_root"/>
+        <field name="sequence">90</field>
+    </record>
+
+    <!-- os -->
+    <!-- Vista de lista -->
+    <record id="view_hr_os_tree" model="ir.ui.view">
+        <field name="name">hr.os.tree</field>
+        <field name="model">hr.os</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="code"/>
+            </tree>
+        </field>
+    </record>
+
+       <!-- Acción -->
+    <record id="action_hr_os" model="ir.actions.act_window">
+        <field name="name">Obras sociales</field>
+        <field name="res_model">hr.os</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    
+</odoo>

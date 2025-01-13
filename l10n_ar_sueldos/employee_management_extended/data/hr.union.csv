@@ -1,0 +1,6 @@
+id,name,code,active,cct_ids
+employee_management_extended.hr_union_2,Unión Obrera Metalúrgica (UOM),2,TRUE,
+employee_management_extended.hr_union_3,Sindicato de Camioneros,3,TRUE,
+employee_management_extended.hr_union_5,Sindicato de Comercio (SEC),5,TRUE,
+employee_management_extended.hr_union_9,UTHGRA,9,TRUE,
+employee_management_extended.hr_union_10,Sindicato de Trabajadores de la Industria de la Construcción (UOCRA),10,TRUE,

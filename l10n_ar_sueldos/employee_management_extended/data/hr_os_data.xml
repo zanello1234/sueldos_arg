@@ -1,0 +1,1305 @@
+<?xml version="1.0" ?>
+<odoo>
+  <data>
+    <record id="record_2" model="hr.os">
+      <field name="name">APRES SOCIEDAD ANONIMA</field>
+      <field name="code">902801</field>
+    </record>
+    <record id="record_3" model="hr.os">
+      <field name="name">ASISTENCIA SANITARIA INTEGRAL S.A.</field>
+      <field name="code">901600</field>
+    </record>
+    <record id="record_4" model="hr.os">
+      <field name="name">ASOCIACION CIVIL DE ESTUDIOS SUPERIORES ACES (HOSPITAL AUSTRAL)</field>
+      <field name="code">903002</field>
+    </record>
+    <record id="record_5" model="hr.os">
+      <field name="name">ASOCIACION DE OBRAS SOCIALES DE BELLA VISTA</field>
+      <field name="code">600309</field>
+    </record>
+    <record id="record_6" model="hr.os">
+      <field name="name">ASOCIACION DE OBRAS SOCIALES DE COMODORO RIVADAVIA</field>
+      <field name="code">600408</field>
+    </record>
+    <record id="record_7" model="hr.os">
+      <field name="name">ASOCIACION DE OBRAS SOCIALES DE ROSARIO</field>
+      <field name="code">602305</field>
+    </record>
+    <record id="record_8" model="hr.os">
+      <field name="name">ASOCIACION DE OBRAS SOCIALES DE TRELEW</field>
+      <field name="code">603100</field>
+    </record>
+    <record id="record_9" model="hr.os">
+      <field name="name">ASOCIACION MUTUAL DE PARTICIPANTES DE ECONOMIA SOLIDARIAS</field>
+      <field name="code">901808</field>
+    </record>
+    <record id="record_10" model="hr.os">
+      <field name="name">ASOCIACION MUTUAL DEL PERSONAL, ASESORES Y DIRECTIVOS DE GRUPO SAN NICOLAS S.R.L</field>
+      <field name="code">902306</field>
+    </record>
+    <record id="record_11" model="hr.os">
+      <field name="name">ASOCIACION MUTUAL RURALISTA</field>
+      <field name="code">900300</field>
+    </record>
+    <record id="record_12" model="hr.os">
+      <field name="name">ASOCIACION MUTUAL SANCOR SALUD</field>
+      <field name="code">902108</field>
+    </record>
+    <record id="record_13" model="hr.os">
+      <field name="name">ASOCIACIÓN MUTUAL DE SALUD DE CIUDADELA</field>
+      <field name="code">900904</field>
+    </record>
+    <record id="record_14" model="hr.os">
+      <field name="name">CENTRO DE EDUCACION MEDICA E INVESTIGACIONES CLINICAS NORBERTO QUIRNO - CEMIC</field>
+      <field name="code">902603</field>
+    </record>
+    <record id="record_15" model="hr.os">
+      <field name="name">CYNTHIOS SALUD S.A.</field>
+      <field name="code">900508</field>
+    </record>
+    <record id="record_16" model="hr.os">
+      <field name="name">ENSALUD SA</field>
+      <field name="code">903606</field>
+    </record>
+    <record id="record_17" model="hr.os">
+      <field name="name">GALENO ARGENTINA SOCIEDAD ANONIMA</field>
+      <field name="code">901105</field>
+    </record>
+    <record id="record_18" model="hr.os">
+      <field name="name">GRUPO DDM SA</field>
+      <field name="code">903309</field>
+    </record>
+    <record id="record_19" model="hr.os">
+      <field name="name">HOSPITAL ALEMAN ASOCIACION CIVIL</field>
+      <field name="code">901204</field>
+    </record>
+    <record id="record_20" model="hr.os">
+      <field name="name">HOSPITAL BRITANICO DE BUENOS AIRES ASOCIACION CIVIL</field>
+      <field name="code">902504</field>
+    </record>
+    <record id="record_21" model="hr.os">
+      <field name="name">INSTITUTO NACIONAL DE SERVICIOS SOCIALES PARA JUBILADOS Y PENSIONADOS</field>
+      <field name="code">500807</field>
+    </record>
+    <record id="record_22" model="hr.os">
+      <field name="name">LA CASA DEL MEDICO MUTUAL</field>
+      <field name="code">900409</field>
+    </record>
+    <record id="record_23" model="hr.os">
+      <field name="name">MEDICINA PREPAGA HOMINIS S.A.</field>
+      <field name="code">901501</field>
+    </record>
+    <record id="record_24" model="hr.os">
+      <field name="name">MEDICUS SOCIEDAD ANONIMA DE ASISTENCIA MEDICA Y CIENTIFICA</field>
+      <field name="code">901006</field>
+    </record>
+    <record id="record_25" model="hr.os">
+      <field name="name">MEDIFE ASOCIACION CIVIL</field>
+      <field name="code">901402</field>
+    </record>
+    <record id="record_26" model="hr.os">
+      <field name="name">MUTUAL DEL PERSONAL DE AGUA Y ENERGIA DE MENDOZA</field>
+      <field name="code">703</field>
+    </record>
+    <record id="record_27" model="hr.os">
+      <field name="name">MUTUAL FEDERADA 25 DE JUNIO SOCIEDAD DE PROTECCION RECIPROCA</field>
+      <field name="code">903200</field>
+    </record>
+    <record id="record_28" model="hr.os">
+      <field name="name">MUTUAL MEDICA CONCORDIA</field>
+      <field name="code">901709</field>
+    </record>
+    <record id="record_29" model="hr.os">
+      <field name="name">NATIVUS SOCIEDAD DE RESPONSABILIDAD LIMITADA</field>
+      <field name="code">902207</field>
+    </record>
+    <record id="record_30" model="hr.os">
+      <field name="name">O. S. ASOCIACION MUTUAL METALURGICA VILLA CONSTITUCION (O.S.A.M.M.V.C)</field>
+      <field name="code">2907</field>
+    </record>
+    <record id="record_31" model="hr.os">
+      <field name="name">O.S. DE DIRECCION OSDO</field>
+      <field name="code">402707</field>
+    </record>
+    <record id="record_32" model="hr.os">
+      <field name="name">O.S. DE LA TRABAJADORES DE LA CARNE Y AFINES DE LA R.A.</field>
+      <field name="code">2600</field>
+    </record>
+    <record id="record_33" model="hr.os">
+      <field name="name">O.S. DE LA UNION OBRERA METALURGICO DE LA REPUBLICA ARGENTINA</field>
+      <field name="code">112103</field>
+    </record>
+    <record id="record_34" model="hr.os">
+      <field name="name">O.S. DEL PERSONAL DE LAS TELECOMUNICACIONES DE LA REPUBLICA ARGENTINA</field>
+      <field name="code">120702</field>
+    </record>
+    <record id="record_35" model="hr.os">
+      <field name="name">O.S. DEL PERSONAL JERARQUICO DEL TRANSPORTE AUTOMOTOR DE PASAJEROS DE CORDOBA Y AFINES</field>
+      <field name="code">2402</field>
+    </record>
+    <record id="record_36" model="hr.os">
+      <field name="name">O.S. DEL SINDICATO OBREROS Y EMPLEADOS DE EMPRESAS DE LIMPIEZA, SERVICIOS Y AFINES DE CORDOBA</field>
+      <field name="code">128409</field>
+    </record>
+    <record id="record_37" model="hr.os">
+      <field name="name">O.S. PARA EL PERSONAL DE EMPRESAS DE LIMPIEZA, SERVICIOS Y MAESTRANZA DE MENDOZA</field>
+      <field name="code">2303</field>
+    </record>
+    <record id="record_38" model="hr.os">
+      <field name="name">O.S. PARA EL PERSONAL DE OBRAS Y SERVICIOS SANITARIOS</field>
+      <field name="code">127604</field>
+    </record>
+    <record id="record_39" model="hr.os">
+      <field name="name">O.S. PROFESIONALES DEL TURF DE LA REPUBLICA ARGENTINA</field>
+      <field name="code">2105</field>
+    </record>
+    <record id="record_40" model="hr.os">
+      <field name="name">O.S.ACCION SOCIAL DE EMPRESARIOS</field>
+      <field name="code">400909</field>
+    </record>
+    <record id="record_41" model="hr.os">
+      <field name="name">O.S.ACEROS PARANA</field>
+      <field name="code">800501</field>
+    </record>
+    <record id="record_42" model="hr.os">
+      <field name="name">O.S.ARBITROS DEPORTIVOS DE LA REPUBLICA ARGENTINA</field>
+      <field name="code">125905</field>
+    </record>
+    <record id="record_43" model="hr.os">
+      <field name="name">O.S.ASOCIACION DEL PERSONAL DE DIRECCION DE LA INDUSTRIA SIDERURGICA</field>
+      <field name="code">402103</field>
+    </record>
+    <record id="record_44" model="hr.os">
+      <field name="name">O.S.ASOCIACION DEL PERSONAL SUPERIOR DE LA ORGANIZACIÓN TECHINT</field>
+      <field name="code">402301</field>
+    </record>
+    <record id="record_45" model="hr.os">
+      <field name="name">O.S.ASOCIACION MUTUAL DEL PERSONAL DE PHILIPS ARGENTINA (AMPAR)</field>
+      <field name="code">401803</field>
+    </record>
+    <record id="record_46" model="hr.os">
+      <field name="name">O.S.BANCARIA ARGENTINA</field>
+      <field name="code">126304</field>
+    </record>
+    <record id="record_47" model="hr.os">
+      <field name="name">O.S.CABOT ARGENTINA</field>
+      <field name="code">303307</field>
+    </record>
+    <record id="record_48" model="hr.os">
+      <field name="name">O.S.CAMARA DE LA INDUSTRIA CURTIDORA ARGENTINA</field>
+      <field name="code">400701</field>
+    </record>
+    <record id="record_49" model="hr.os">
+      <field name="name">O.S.CERAS JOHNSON</field>
+      <field name="code">300704</field>
+    </record>
+    <record id="record_50" model="hr.os">
+      <field name="name">O.S.CONDUCTORES DE TAXIS DE CORDOBA</field>
+      <field name="code">121804</field>
+    </record>
+    <record id="record_51" model="hr.os">
+      <field name="name">O.S.COOPERATIVA LIMITADA DE ASISTENCIA MEDICA,FARMACEUTICA,CREDITO Y CONSUMO DEL PERSONAL SUPERIOR DE LA INDUSTRIA DEL CAUCHO Y OTRAS ACTIVIDADES INDUSTRIALES</field>
+      <field name="code">400305</field>
+    </record>
+    <record id="record_52" model="hr.os">
+      <field name="name">O.S.DE ACTORES</field>
+      <field name="code">100205</field>
+    </record>
+    <record id="record_53" model="hr.os">
+      <field name="name">O.S.DE AERONAVEGANTES</field>
+      <field name="code">100809</field>
+    </record>
+    <record id="record_54" model="hr.os">
+      <field name="name">O.S.DE AGENTES DE LOTERIAS Y AFINES DE LA REPUBLICA ARGENTINA</field>
+      <field name="code">604</field>
+    </record>
+    <record id="record_55" model="hr.os">
+      <field name="name">O.S.DE AGENTES DE PROPAGANDA MEDICA DE CORDOBA</field>
+      <field name="code">118309</field>
+    </record>
+    <record id="record_56" model="hr.os">
+      <field name="name">O.S.DE AGENTES DE PROPAGANDA MEDICA DE ENTRE RIOS</field>
+      <field name="code">118408</field>
+    </record>
+    <record id="record_57" model="hr.os">
+      <field name="name">O.S.DE AGENTES DE PROPAGANDA MEDICA DE LA REPUBLICA ARGENTINA</field>
+      <field name="code">118200</field>
+    </record>
+    <record id="record_58" model="hr.os">
+      <field name="name">O.S.DE BOXEADORES AGREMIADOS DE LA REPUBLICA ARGENTINA</field>
+      <field name="code">124001</field>
+    </record>
+    <record id="record_59" model="hr.os">
+      <field name="name">O.S.DE CAPATACES Y ESTIBADORES PORTUARIOS</field>
+      <field name="code">116105</field>
+    </record>
+    <record id="record_60" model="hr.os">
+      <field name="name">O.S.DE CAPITANES BAQUEANOS FLUVIALES DE LA MARINA MERCANTE</field>
+      <field name="code">111506</field>
+    </record>
+    <record id="record_61" model="hr.os">
+      <field name="name">O.S.DE CAPITANES DE ULTRAMAR Y OFICIALES DE LA MARINA MERCANTE</field>
+      <field name="code">111407</field>
+    </record>
+    <record id="record_62" model="hr.os">
+      <field name="name">O.S.DE CAPITANES,PILOTOS Y PATRONES DE PESCA</field>
+      <field name="code">505</field>
+    </record>
+    <record id="record_63" model="hr.os">
+      <field name="name">O.S.DE CERAMISTAS</field>
+      <field name="code">104108</field>
+    </record>
+    <record id="record_64" model="hr.os">
+      <field name="name">O.S.DE CHOFERES DE CAMIONES</field>
+      <field name="code">105804</field>
+    </record>
+    <record id="record_65" model="hr.os">
+      <field name="name">O.S.DE COLOCADORES DE AZULEJOS,MOSAICOS,GRANITEROS,LUSTRADORES Y PORCELANEROS</field>
+      <field name="code">104801</field>
+    </record>
+    <record id="record_66" model="hr.os">
+      <field name="name">O.S.DE COMISARIOS NAVALES</field>
+      <field name="code">113809</field>
+    </record>
+    <record id="record_67" model="hr.os">
+      <field name="name">O.S.DE CONDUCTORES CAMIONEROS Y PERSONAL DEL TRANSPORTE AUTOMOTOR DE CARGAS</field>
+      <field name="code">103204</field>
+    </record>
+    <record id="record_68" model="hr.os">
+      <field name="name">O.S.DE CONDUCTORES DE TRANSPORTE COLECTIVO DE PASAJEROS</field>
+      <field name="code">121606</field>
+    </record>
+    <record id="record_69" model="hr.os">
+      <field name="name">O.S.DE CONDUCTORES NAVALES (CONDUCTORES FUSIONADOS)</field>
+      <field name="code">105002</field>
+    </record>
+    <record id="record_70" model="hr.os">
+      <field name="name">O.S.DE DOCENTES PARTICULARES</field>
+      <field name="code">106302</field>
+    </record>
+    <record id="record_71" model="hr.os">
+      <field name="name">O.S.DE EMPLEADOS DE AGENCIAS DE INFORMES</field>
+      <field name="code">100908</field>
+    </record>
+    <record id="record_72" model="hr.os">
+      <field name="name">O.S.DE EMPLEADOS DE LA INDUSTRIA DEL VIDRIO</field>
+      <field name="code">122401</field>
+    </record>
+    <record id="record_73" model="hr.os">
+      <field name="name">O.S.DE EMPLEADOS DE LA MARINA MERCANTE</field>
+      <field name="code">111605</field>
+    </record>
+    <record id="record_74" model="hr.os">
+      <field name="name">O.S.DE EMPLEADOS DE PRENSA DE CORDOBA</field>
+      <field name="code">118002</field>
+    </record>
+    <record id="record_75" model="hr.os">
+      <field name="name">O.S.DE EMPLEADOS DEL TABACO</field>
+      <field name="code">120603</field>
+    </record>
+    <record id="record_76" model="hr.os">
+      <field name="name">O.S.DE EMPLEADOS TEXTILES Y AFINES</field>
+      <field name="code">121101</field>
+    </record>
+    <record id="record_77" model="hr.os">
+      <field name="name">O.S.DE ENCARGADOS APUNTADORES MARITIMOS</field>
+      <field name="code">111704</field>
+    </record>
+    <record id="record_78" model="hr.os">
+      <field name="name">O.S.DE FOTOGRAFOS</field>
+      <field name="code">108209</field>
+    </record>
+    <record id="record_79" model="hr.os">
+      <field name="name">O.S.DE FUTBOLISTAS</field>
+      <field name="code">108605</field>
+    </record>
+    <record id="record_80" model="hr.os">
+      <field name="name">O.S.DE GUINCHEROS Y MAQUINISTAS DE GRUAS MOVILES</field>
+      <field name="code">109202</field>
+    </record>
+    <record id="record_81" model="hr.os">
+      <field name="name">O.S.DE JARDINEROS,PARQUISTAS,VIVERISTAS Y FLORICULTORES</field>
+      <field name="code">110107</field>
+    </record>
+    <record id="record_82" model="hr.os">
+      <field name="name">O.S.DE JEFES Y OFICIALES MAQUINISTAS NAVALES</field>
+      <field name="code">113304</field>
+    </record>
+    <record id="record_83" model="hr.os">
+      <field name="name">O.S.DE JEFES Y OFICIALES NAVALES DE RADIOCOMUNICACIONES</field>
+      <field name="code">113205</field>
+    </record>
+    <record id="record_84" model="hr.os">
+      <field name="name">O.S.DE LA ACTIVIDAD DE SEGUROS,REASEGUROS,CAPITALIZACION Y AHORRO Y PRESTAMO PARA LA VIVIENDA</field>
+      <field name="code">901</field>
+    </record>
+    <record id="record_85" model="hr.os">
+      <field name="name">O.S.DE LA ACTIVIDAD MINERA</field>
+      <field name="code">112400</field>
+    </record>
+    <record id="record_86" model="hr.os">
+      <field name="name">O.S.DE LA EMPRESA NACIONAL DE CORREOS Y TELEGRAFOS S.A.Y DE LAS COMUNICACIONES DE LA REPUBLICA ARGENTINA</field>
+      <field name="code">200400</field>
+    </record>
+    <record id="record_87" model="hr.os">
+      <field name="name">O.S.DE LA FEDERACION ARGENTINA DE TRABAJADORES DE LUZ Y FUERZA</field>
+      <field name="code">110701</field>
+    </record>
+    <record id="record_88" model="hr.os">
+      <field name="name">O.S.DE LA FEDERACION ARGENTINA DEL TRABAJADOR DE LAS UNIVERSIDADES NACIONALES</field>
+      <field name="code">125509</field>
+    </record>
+    <record id="record_89" model="hr.os">
+      <field name="name">O.S.DE LA FEDERACION DE CAMARAS Y CENTROS COMERCIALES ZONALES DE LA REPUBLICA ARGENTINA</field>
+      <field name="code">1904</field>
+    </record>
+    <record id="record_90" model="hr.os">
+      <field name="name">O.S.DE LA INDUSTRIA DE PASTAS ALIMENTICIAS</field>
+      <field name="code">114208</field>
+    </record>
+    <record id="record_91" model="hr.os">
+      <field name="name">O.S.DE LA INDUSTRIA DEL TRANSPORTE AUTOMOTOR DE CORDOBA</field>
+      <field name="code">121507</field>
+    </record>
+    <record id="record_92" model="hr.os">
+      <field name="name">O.S.DE LOCUTORES</field>
+      <field name="code">110602</field>
+    </record>
+    <record id="record_93" model="hr.os">
+      <field name="name">O.S.DE LOS CORTADORES DE LA INDUMENTARIA</field>
+      <field name="code">105507</field>
+    </record>
+    <record id="record_94" model="hr.os">
+      <field name="name">O.S.DE LOS EMPLEADOS DE COMERCIO Y ACTIVIDADES CIVILES</field>
+      <field name="code">126205</field>
+    </record>
+    <record id="record_95" model="hr.os">
+      <field name="name">O.S.DE LOS PROFESIONALES UNIVERSITARIOS DEL AGUA Y ENERGIA ELECTRICA</field>
+      <field name="code">125103</field>
+    </record>
+    <record id="record_96" model="hr.os">
+      <field name="name">O.S.DE LOS SUPERVISORES DE LA INDUSTRIA METALMECANICA DE LA REPUBLICA ARGENTINA</field>
+      <field name="code">112202</field>
+    </record>
+    <record id="record_97" model="hr.os">
+      <field name="name">O.S.DE LOS TRABAJADORES DE LA EDUCACION PRIVADA</field>
+      <field name="code">126106</field>
+    </record>
+    <record id="record_98" model="hr.os">
+      <field name="name">O.S.DE LOS TRABAJADORES DE LA INDUSTRIA DEL GAS</field>
+      <field name="code">124506</field>
+    </record>
+    <record id="record_99" model="hr.os">
+      <field name="name">O.S.DE LOS TRABAJADORES DE LAS EMPRESAS DE ELECTRICIDAD</field>
+      <field name="code">110800</field>
+    </record>
+    <record id="record_100" model="hr.os">
+      <field name="name">O.S.DE MAQUINISTAS DE TEATRO Y TELEVISION</field>
+      <field name="code">111308</field>
+    </record>
+    <record id="record_101" model="hr.os">
+      <field name="name">O.S.DE MINISTROS, SECRETARIOS Y SUBSECRETARIOS</field>
+      <field name="code">2501</field>
+    </record>
+    <record id="record_102" model="hr.os">
+      <field name="name">O.S.DE MUSICOS</field>
+      <field name="code">112806</field>
+    </record>
+    <record id="record_103" model="hr.os">
+      <field name="name">O.S.DE OBREROS EMPACADORES DE FRUTA DE RIO NEGRO Y NEUQUEN</field>
+      <field name="code">106708</field>
+    </record>
+    <record id="record_104" model="hr.os">
+      <field name="name">O.S.DE OFICIALES PELUQUEROS Y PEINADORES DE ROSARIO</field>
+      <field name="code">114901</field>
+    </record>
+    <record id="record_105" model="hr.os">
+      <field name="name">O.S.DE OPERADORES CINEMATOGRAFICOS</field>
+      <field name="code">104603</field>
+    </record>
+    <record id="record_106" model="hr.os">
+      <field name="name">O.S.DE PANADEROS,PASTELEROS Y FACTUREROS DE ENTRE RIOS</field>
+      <field name="code">114000</field>
+    </record>
+    <record id="record_107" model="hr.os">
+      <field name="name">O.S.DE PASTELEROS,CONFITEROS,PIZZEROS Y ALFAJOREROS DE LA REPUBLICA ARGENTINA</field>
+      <field name="code">114307</field>
+    </record>
+    <record id="record_108" model="hr.os">
+      <field name="name">O.S.DE PATRONES DE CABOTAJE DE RIOS Y PUERTOS</field>
+      <field name="code">114505</field>
+    </record>
+    <record id="record_109" model="hr.os">
+      <field name="name">O.S.DE PEONES DE TAXIS DE LA CAPITAL FEDERAL</field>
+      <field name="code">123701</field>
+    </record>
+    <record id="record_110" model="hr.os">
+      <field name="name">O.S.DE PETROLEROS DE CORDOBA</field>
+      <field name="code">115508</field>
+    </record>
+    <record id="record_111" model="hr.os">
+      <field name="name">O.S.DE PILOTOS DE LINEAS AEREAS COMERCIALES Y REGULARES</field>
+      <field name="code">115706</field>
+    </record>
+    <record id="record_112" model="hr.os">
+      <field name="name">O.S.DE PORTUARIOS ARGENTINOS</field>
+      <field name="code">116204</field>
+    </record>
+    <record id="record_113" model="hr.os">
+      <field name="name">O.S.DE RECIBIDORES DE GRANOS Y ANEXOS</field>
+      <field name="code">118804</field>
+    </record>
+    <record id="record_114" model="hr.os">
+      <field name="name">O.S.DE RELOJEROS Y JOYEROS</field>
+      <field name="code">119203</field>
+    </record>
+    <record id="record_115" model="hr.os">
+      <field name="name">O.S.DE SERENOS DE BUQUES</field>
+      <field name="code">119906</field>
+    </record>
+    <record id="record_116" model="hr.os">
+      <field name="name">O.S.DE TALLERISTAS A DOMICILIO</field>
+      <field name="code">123107</field>
+    </record>
+    <record id="record_117" model="hr.os">
+      <field name="name">O.S.DE TECNICOS DE FUTBOL</field>
+      <field name="code">108704</field>
+    </record>
+    <record id="record_118" model="hr.os">
+      <field name="name">O.S.DE TRABADORES DE PRENSA DE BUENOS AIRES</field>
+      <field name="code">115102</field>
+    </record>
+    <record id="record_119" model="hr.os">
+      <field name="name">O.S.DE TRABAJADORES DE ESTACIONES DE SERVICIO (OSTES)</field>
+      <field name="code">127000</field>
+    </record>
+    <record id="record_120" model="hr.os">
+      <field name="name">O.S.DE TRABAJADORES DE LAS COMUNICACIONES (OSTRAC)</field>
+      <field name="code">120801</field>
+    </record>
+    <record id="record_121" model="hr.os">
+      <field name="name">O.S.DE TRABAJADORES DE PERKINS ARGENTINA S.A.I.C.</field>
+      <field name="code">123602</field>
+    </record>
+    <record id="record_122" model="hr.os">
+      <field name="name">O.S.DE VAREADORES</field>
+      <field name="code">121903</field>
+    </record>
+    <record id="record_123" model="hr.os">
+      <field name="name">O.S.DE VENDEDORES AMBULANTES DE LA REPUBLICA ARGENTINA</field>
+      <field name="code">123909</field>
+    </record>
+    <record id="record_124" model="hr.os">
+      <field name="name">O.S.DE VIAJANTES VENDEDORES DE LA REPUBLICA ARGENTINA</field>
+      <field name="code">122104</field>
+    </record>
+    <record id="record_125" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL ADMINISTRATIVO Y TECNICO DE LA CONSTRUCCION Y AFINES</field>
+      <field name="code">105309</field>
+    </record>
+    <record id="record_126" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL AERONAUTICO</field>
+      <field name="code">100502</field>
+    </record>
+    <record id="record_127" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL AERONAVEGACION DE ENTES PRIVADOS</field>
+      <field name="code">100601</field>
+    </record>
+    <record id="record_128" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL AUXILIAR DE CASAS PARTICULARES</field>
+      <field name="code">103600</field>
+    </record>
+    <record id="record_129" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL CINEMATOGRAFICO DE MAR DEL PLATA</field>
+      <field name="code">104405</field>
+    </record>
+    <record id="record_130" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL CIVIL DE LA NACION</field>
+      <field name="code">125707</field>
+    </record>
+    <record id="record_131" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE ENTIDADES DEPORTIVAS Y CIVILES</field>
+      <field name="code">106005</field>
+    </record>
+    <record id="record_132" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE AGUAS GASEOSAS Y AFINES</field>
+      <field name="code">101000</field>
+    </record>
+    <record id="record_133" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE AZUCAR DEL INGENIO LA ESPERANZA</field>
+      <field name="code">101802</field>
+    </record>
+    <record id="record_134" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE AZUCAR DEL INGENIO LEDESMA</field>
+      <field name="code">101901</field>
+    </record>
+    <record id="record_135" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE AZUCAR DEL INGENIO SAN MARTIN</field>
+      <field name="code">102300</field>
+    </record>
+    <record id="record_136" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE BARRACAS DE LANAS,CUEROS Y ANEXOS</field>
+      <field name="code">102904</field>
+    </record>
+    <record id="record_137" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE CARGA Y DESCARGA</field>
+      <field name="code">103402</field>
+    </record>
+    <record id="record_138" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE CEMENTERIOS DE LA REPUBLICA ARGENTINA</field>
+      <field name="code">104009</field>
+    </record>
+    <record id="record_139" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE CONSIGNATARIOS DEL MERCADO NACIONAL DE HACIENDA DE LINIERS</field>
+      <field name="code">109301</field>
+    </record>
+    <record id="record_140" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE DIRECCION ALFREDO FORTABAT</field>
+      <field name="code">401100</field>
+    </record>
+    <record id="record_141" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE DIRECCION DE LA EMPRESA SUBTERRANEOS BUENOS AIRES</field>
+      <field name="code">120405</field>
+    </record>
+    <record id="record_142" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE DIRECCION DE LA INDUSTRIA AUTOMOTRIZ ARGENTINA</field>
+      <field name="code">400206</field>
+    </record>
+    <record id="record_143" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE DIRECCION DE LA INDUSTRIA CERVECERA Y MALTERA</field>
+      <field name="code">400404</field>
+    </record>
+    <record id="record_144" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE DIRECCION DE LA INDUSTRIA METALURGICA Y DEMAS ACT. EMPRESARIAS</field>
+      <field name="code">401209</field>
+    </record>
+    <record id="record_145" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE DIRECCION DE LA INDUSTRIA PRIVADA DEL PETROLEO</field>
+      <field name="code">401605</field>
+    </record>
+    <record id="record_146" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE DIRECCION DE LA INDUSTRIA VITIVINICOLA Y AFINES</field>
+      <field name="code">402400</field>
+    </record>
+    <record id="record_147" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE DIRECCION DE LA SANIDAD LUIS PASTEUR</field>
+      <field name="code">402004</field>
+    </record>
+    <record id="record_148" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE DIRECCION DE LAS EMPRESAS DE LA ALIMENTACION Y DEMAS ACTIVIDADES EMPRESARIAS</field>
+      <field name="code">400107</field>
+    </record>
+    <record id="record_149" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE DIRECCION DE LAS EMPRESAS QUE ACTUAN EN FRUTOS DEL PAIS</field>
+      <field name="code">401001</field>
+    </record>
+    <record id="record_150" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE DIRECCION DE PERFUMERIAS E.W.HOPE</field>
+      <field name="code">401902</field>
+    </record>
+    <record id="record_151" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE DIRECCION Y JERARQUICO DE LA INDUSTRIA DEL CIGARRILLO</field>
+      <field name="code">400503</field>
+    </record>
+    <record id="record_152" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE DISTRIBUIDORAS CINEMATOGRAFICAS</field>
+      <field name="code">106203</field>
+    </record>
+    <record id="record_153" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE EDIFCIOS DE RENTA Y HORIZONTAL DE LA REPUBLICA ARGENTINA</field>
+      <field name="code">106401</field>
+    </record>
+    <record id="record_154" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE EDIFICIOS DE RENTAS Y HORIZONTAL DE CAPITAL FEDERAL Y GRAN BUENOS ARIES</field>
+      <field name="code">106500</field>
+    </record>
+    <record id="record_155" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE EMPRESAS FIAT Y EMPRESAS PEUGEOT CITROEN ARG.</field>
+      <field name="code">900102</field>
+    </record>
+    <record id="record_156" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE ESCRIBANIAS DE LA PROVINCIA DE BUENOS AIRES</field>
+      <field name="code">106906</field>
+    </record>
+    <record id="record_157" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE ESCRIBANOS</field>
+      <field name="code">107008</field>
+    </record>
+    <record id="record_158" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE ESTACIONES DE SERVICIO Y GNC,GARAGES,PLAYAS DE ESTACIONAMIENTO Y LAVADEROS AUTOMATICOS</field>
+      <field name="code">107206</field>
+    </record>
+    <record id="record_159" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE ESTACIONES DE SERVICIO,GARAGES,PLAYAS DE ESTACIONAMIENTO Y LAVADEROS AUTOMATICOS DE SANTA FE</field>
+      <field name="code">122906</field>
+    </record>
+    <record id="record_160" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE FABRICAS DE PINTURA</field>
+      <field name="code">115805</field>
+    </record>
+    <record id="record_161" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE FARMACIA</field>
+      <field name="code">107404</field>
+    </record>
+    <record id="record_162" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE IMPRENTA, DIARIOS Y AFINES</field>
+      <field name="code">109707</field>
+    </record>
+    <record id="record_163" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE INDUSTRIAS QUIMICAS Y PETROQUIMICAS</field>
+      <field name="code">118705</field>
+    </record>
+    <record id="record_164" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE INSTALACIONES SANITARIAS</field>
+      <field name="code">119609</field>
+    </record>
+    <record id="record_165" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE JABONEROS</field>
+      <field name="code">110008</field>
+    </record>
+    <record id="record_166" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA ACTIVIDAD FRUCTICOLA</field>
+      <field name="code">108407</field>
+    </record>
+    <record id="record_167" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA ACTIVIDAD CERVECERA Y AFINES</field>
+      <field name="code">104306</field>
+    </record>
+    <record id="record_168" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA ACTIVIDAD DEL TURF</field>
+      <field name="code">121705</field>
+    </record>
+    <record id="record_169" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA ACTIVIDAD PERFUMISTA</field>
+      <field name="code">115003</field>
+    </record>
+    <record id="record_170" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA ACTIVIDAD VIAL</field>
+      <field name="code">122302</field>
+    </record>
+    <record id="record_171" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA ACTIVIDAD VITIVINICOLA</field>
+      <field name="code">122609</field>
+    </record>
+    <record id="record_172" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA CERAMICA,SANITARIOS,PORCELANAS DE MESA Y AFINES</field>
+      <field name="code">104207</field>
+    </record>
+    <record id="record_173" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA CONSTRUCCION</field>
+      <field name="code">105408</field>
+    </record>
+    <record id="record_174" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA ENSEÑANZA PRIVADA</field>
+      <field name="code">106807</field>
+    </record>
+    <record id="record_175" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA INDUSTRIA AZUCARERA</field>
+      <field name="code">102706</field>
+    </record>
+    <record id="record_176" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA INDUSTRIA BOTONERA</field>
+      <field name="code">103006</field>
+    </record>
+    <record id="record_177" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA INDUSTRIA CINEMATOGRAFICA</field>
+      <field name="code">104504</field>
+    </record>
+    <record id="record_178" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA INDUSTRIA DE LA ALIMENTACION</field>
+      <field name="code">101208</field>
+    </record>
+    <record id="record_179" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA INDUSTRIA DEL CALZADO</field>
+      <field name="code">103105</field>
+    </record>
+    <record id="record_180" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA INDUSTRIA DEL CAUCHO</field>
+      <field name="code">103709</field>
+    </record>
+    <record id="record_181" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA INDUSTRIA DEL CAUCHO DE SANTA FE</field>
+      <field name="code">103907</field>
+    </record>
+    <record id="record_182" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA INDUSTRIA DEL CHACINADO Y AFINES</field>
+      <field name="code">105705</field>
+    </record>
+    <record id="record_183" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA INDUSTRIA DEL CUERO Y AFINES</field>
+      <field name="code">105606</field>
+    </record>
+    <record id="record_184" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA INDUSTRIA DEL FIBROCEMENTO</field>
+      <field name="code">107800</field>
+    </record>
+    <record id="record_185" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA INDUSTRIA DEL FOSFORO</field>
+      <field name="code">108100</field>
+    </record>
+    <record id="record_186" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA INDUSTRIA DEL HIELO Y MERCADOS PARTICULARES</field>
+      <field name="code">109400</field>
+    </record>
+    <record id="record_187" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA INDUSTRIA DEL NEUMATICO</field>
+      <field name="code">113601</field>
+    </record>
+    <record id="record_188" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA INDUSTRIA DEL PESCADO DE MAR DEL PLATA</field>
+      <field name="code">115201</field>
+    </record>
+    <record id="record_189" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA INDUSTRIA DEL PLASTICO</field>
+      <field name="code">116006</field>
+    </record>
+    <record id="record_190" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA INDUSTRIA DEL TABACO</field>
+      <field name="code">120504</field>
+    </record>
+    <record id="record_191" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA INDUSTRIA DEL TRACTOR</field>
+      <field name="code">121309</field>
+    </record>
+    <record id="record_192" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA INDUSTRIA DEL VIDRIO</field>
+      <field name="code">122500</field>
+    </record>
+    <record id="record_193" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA INDUSTRIA FIDEERA</field>
+      <field name="code">107909</field>
+    </record>
+    <record id="record_194" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA INDUSTRIA FORESTAL DE SANTIAGO DEL ESTERO</field>
+      <field name="code">108001</field>
+    </record>
+    <record id="record_195" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA INDUSTRIA GRAFICA DE LA PROVINCIA DE CORDOBA</field>
+      <field name="code">208</field>
+    </record>
+    <record id="record_196" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA INDUSTRIA LADRILLERA A MAQUINA</field>
+      <field name="code">110404</field>
+    </record>
+    <record id="record_197" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA INDUSTRIA LECHERA</field>
+      <field name="code">110503</field>
+    </record>
+    <record id="record_198" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA INDUSTRIA MADERERA</field>
+      <field name="code">111001</field>
+    </record>
+    <record id="record_199" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA INDUSTRIA MOLINERA</field>
+      <field name="code">112608</field>
+    </record>
+    <record id="record_200" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA INDUSTRIA NAVAL</field>
+      <field name="code">113700</field>
+    </record>
+    <record id="record_201" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA INDUSTRIA PETROQUIMICA</field>
+      <field name="code">115607</field>
+    </record>
+    <record id="record_202" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA INDUSTRIA TEXTIL</field>
+      <field name="code">121002</field>
+    </record>
+    <record id="record_203" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA PUBLICIDAD</field>
+      <field name="code">118606</field>
+    </record>
+    <record id="record_204" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LA SANIDAD ARGENTINA</field>
+      <field name="code">119500</field>
+    </record>
+    <record id="record_205" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LOS HIPODROMOS DE BUENOS AIRES Y SAN ISIDRO</field>
+      <field name="code">109509</field>
+    </record>
+    <record id="record_206" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE LUZ Y FUERZA DE CORDOBA</field>
+      <field name="code">110909</field>
+    </record>
+    <record id="record_207" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE MAESTRANZA</field>
+      <field name="code">111209</field>
+    </record>
+    <record id="record_208" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE MANIPULEO,EMPAQUE Y EXPEDICION DE FRUTA FRESCA Y HORTALIZAS DE CUYO</field>
+      <field name="code">108506</field>
+    </record>
+    <record id="record_209" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE MICROS Y OMNIBUS DE MENDOZA</field>
+      <field name="code">112301</field>
+    </record>
+    <record id="record_210" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE ORGANISMOS DE CONTROL EXTERNO</field>
+      <field name="code">406</field>
+    </record>
+    <record id="record_211" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE PANADERIAS</field>
+      <field name="code">113908</field>
+    </record>
+    <record id="record_212" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE PBBPOLISUR DE BAHIA BLANCA</field>
+      <field name="code">303703</field>
+    </record>
+    <record id="record_213" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE PELUQUERIAS,ESTETICA Y AFINES</field>
+      <field name="code">114703</field>
+    </record>
+    <record id="record_214" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE PRENSA DE BAHIA BLANCA</field>
+      <field name="code">117405</field>
+    </record>
+    <record id="record_215" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE PRENSA DE LA PROVINCIA DE CHACO</field>
+      <field name="code">117603</field>
+    </record>
+    <record id="record_216" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE PRENSA DE LA REPUBLICA ARGENTINA</field>
+      <field name="code">117207</field>
+    </record>
+    <record id="record_217" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE PRENSA DE MAR DEL PLATA</field>
+      <field name="code">117702</field>
+    </record>
+    <record id="record_218" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE PRENSA DE MENDOZA</field>
+      <field name="code">117801</field>
+    </record>
+    <record id="record_219" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE PRENSA DE ROSARIO</field>
+      <field name="code">123404</field>
+    </record>
+    <record id="record_220" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE PRENSA DE TUCUMAN</field>
+      <field name="code">123503</field>
+    </record>
+    <record id="record_221" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE RECOLECCION Y BARRIDO DE ROSARIO</field>
+      <field name="code">118903</field>
+    </record>
+    <record id="record_222" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE REFINERIAS DE MAIZ</field>
+      <field name="code">119005</field>
+    </record>
+    <record id="record_223" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE SEGURIDAD COMERCIAL,INDUSTRIAL E INVESTIGACIONES PRIVADAS</field>
+      <field name="code">119708</field>
+    </record>
+    <record id="record_224" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE SHELL-CAPSA</field>
+      <field name="code">303406</field>
+    </record>
+    <record id="record_225" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE SOCIEDADES DE AUTORES Y AFINES</field>
+      <field name="code">123305</field>
+    </record>
+    <record id="record_226" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE SUPERVISION DE LA EMPRESA SUBTERRANEOS DE BUENOS AIRES</field>
+      <field name="code">120306</field>
+    </record>
+    <record id="record_227" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE TELEVISION</field>
+      <field name="code">120900</field>
+    </record>
+    <record id="record_228" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DE VIGILANCIA Y SEGURIDAD COMERCIAL,INDUSTRIAL E INVESTIGACIONES PRIVADAS DE CORDOBA</field>
+      <field name="code">122807</field>
+    </record>
+    <record id="record_229" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DEL AUTOMOVIL CLUB ARGENTINO</field>
+      <field name="code">101604</field>
+    </record>
+    <record id="record_230" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DEL CAUCHO</field>
+      <field name="code">103808</field>
+    </record>
+    <record id="record_231" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DEL ESPECTACULO PUBLICO</field>
+      <field name="code">107107</field>
+    </record>
+    <record id="record_232" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DEL JOCKEY CLUB DE ROSARIO</field>
+      <field name="code">110206</field>
+    </record>
+    <record id="record_233" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DEL PAPEL,CARTON Y QUIMICOS</field>
+      <field name="code">114109</field>
+    </record>
+    <record id="record_234" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL DIRECTIVO DE LA INDUSTRIA DE LA CONSTRUCCION</field>
+      <field name="code">400602</field>
+    </record>
+    <record id="record_235" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL GRAFICO</field>
+      <field name="code">109004</field>
+    </record>
+    <record id="record_236" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL JERARQUICO DE LA REPUBLICA ARGENTINA PARA EL PERSONAL JERARQUICO DE LA INDUSTRIA GRAFICA Y EL PERSONAL JERARQUICO DE AGUA Y ENERGIA</field>
+      <field name="code">1706</field>
+    </record>
+    <record id="record_237" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL LADRILLERO</field>
+      <field name="code">110305</field>
+    </record>
+    <record id="record_238" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL MARITIMO</field>
+      <field name="code">111803</field>
+    </record>
+    <record id="record_239" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL MOSAISTA</field>
+      <field name="code">112707</field>
+    </record>
+    <record id="record_240" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL MUNICIPAL DE AVELLANEDA</field>
+      <field name="code">700108</field>
+    </record>
+    <record id="record_241" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL MUNICIPAL DE LA MATANZA</field>
+      <field name="code">700801</field>
+    </record>
+    <record id="record_242" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL MUNICIPAL DE TRES DE FEBRERO</field>
+      <field name="code">701002</field>
+    </record>
+    <record id="record_243" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL NAVAL</field>
+      <field name="code">113403</field>
+    </record>
+    <record id="record_244" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL RURAL Y ESTIBADORES DE LA REPUBLICA ARGENTINA</field>
+      <field name="code">119302</field>
+    </record>
+    <record id="record_245" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL SUPERIOR DE MERCEDES BENZ ARGENTINA</field>
+      <field name="code">112004</field>
+    </record>
+    <record id="record_246" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL SUPERIOR Y PROFESIONAL DE EMPRESAS AEROCOMERCIALES</field>
+      <field name="code">100403</field>
+    </record>
+    <record id="record_247" model="hr.os">
+      <field name="name">O.S.DEL PERSONAL TECNICO AERONAUTICO</field>
+      <field name="code">100700</field>
+    </record>
+    <record id="record_248" model="hr.os">
+      <field name="name">O.S.DEL PETROLEO Y GAS PRIVADO</field>
+      <field name="code">115409</field>
+    </record>
+    <record id="record_249" model="hr.os">
+      <field name="name">O.S.DEL SINDICATO DE MECANICOS Y AFINES DEL TRANSPORTE AUTOMOTOR</field>
+      <field name="code">111902</field>
+    </record>
+    <record id="record_250" model="hr.os">
+      <field name="name">O.S.DEL SINDICATO UNIDO DE TRABAJADORES DE LA INDUSTRIA DE AGUAS GASEOSAS DE LA PROVINCIA DE SANTA FE</field>
+      <field name="code">1607</field>
+    </record>
+    <record id="record_251" model="hr.os">
+      <field name="name">O.S.ELECTRICISTAS NAVALES</field>
+      <field name="code">106609</field>
+    </record>
+    <record id="record_252" model="hr.os">
+      <field name="name">O.S.EMPLEADOS DE DESPACHANTES DE ADUANA</field>
+      <field name="code">106104</field>
+    </record>
+    <record id="record_253" model="hr.os">
+      <field name="name">O.S.EMPRESARIOS,PROFESIONALES Y MONOTRIBUTISTAS</field>
+      <field name="code">401704</field>
+    </record>
+    <record id="record_254" model="hr.os">
+      <field name="name">O.S.FEDERACION GREMIAL INDUSTRIA DE LA CARNE Y SUS DERIVADOS</field>
+      <field name="code">126007</field>
+    </record>
+    <record id="record_255" model="hr.os">
+      <field name="name">O.S.FEDERAL NACIONAL DE OBRAS SANITARIAS</field>
+      <field name="code">125301</field>
+    </record>
+    <record id="record_256" model="hr.os">
+      <field name="name">O.S.FERROVIARIA</field>
+      <field name="code">1300</field>
+    </record>
+    <record id="record_257" model="hr.os">
+      <field name="name">O.S.FORD ARGENTINA S.A.</field>
+      <field name="code">303901</field>
+    </record>
+    <record id="record_258" model="hr.os">
+      <field name="name">O.S.MODELOS ARGENTINOS</field>
+      <field name="code">112509</field>
+    </record>
+    <record id="record_259" model="hr.os">
+      <field name="name">O.S.MUTUALIDAD INDUSTRIAL TEXTIL ARGENTINA</field>
+      <field name="code">402202</field>
+    </record>
+    <record id="record_260" model="hr.os">
+      <field name="name">O.S.PARA DIRECTIVOS,TECNICOS Y EMPLEADOS DE JOHN DEERE ARGENTINA</field>
+      <field name="code">302106</field>
+    </record>
+    <record id="record_261" model="hr.os">
+      <field name="name">O.S.PARA EL PERSONAL DE DIRECCION DE LA INDUSTRIA MADERERA</field>
+      <field name="code">401308</field>
+    </record>
+    <record id="record_262" model="hr.os">
+      <field name="name">O.S.PARA EL PERSONAL DE ESTACIONES DE SERVICIO,GARAGES,PLAYAS DE ESTACIONAMIENTO,LAVADEROS AUTOMATICOS Y GOMERIAS DE LA REPUBLICA ARGENTINA</field>
+      <field name="code">123008</field>
+    </record>
+    <record id="record_263" model="hr.os">
+      <field name="name">O.S.PARA EL PERSONAL DE LA INDUSTRIA ACEITERA Y AFINES</field>
+      <field name="code">100106</field>
+    </record>
+    <record id="record_264" model="hr.os">
+      <field name="name">O.S.PARA EL PERSONAL DE LA INDUSTRIA DEL VESTIDO Y AFINES</field>
+      <field name="code">122005</field>
+    </record>
+    <record id="record_265" model="hr.os">
+      <field name="name">O.S.PARA EL PERSONAL DEL MINISTERIO DE ECONOMIA Y OBRAS PUBLICAS</field>
+      <field name="code">1201</field>
+    </record>
+    <record id="record_266" model="hr.os">
+      <field name="name">O.S.PARA LA ACTIVIDAD DOCENTE</field>
+      <field name="code">1102</field>
+    </record>
+    <record id="record_267" model="hr.os">
+      <field name="name">O.S.PERSONAL DE INDUSTRIAS QUIMICAS Y PETROQUIMICAS ZARATE CAMPANA</field>
+      <field name="code">126601</field>
+    </record>
+    <record id="record_268" model="hr.os">
+      <field name="name">O.S.PETROLEROS</field>
+      <field name="code">115300</field>
+    </record>
+    <record id="record_269" model="hr.os">
+      <field name="name">O.S.PORTUARIOS ARGENTINOS DE MAR DEL PLATA</field>
+      <field name="code">307</field>
+    </record>
+    <record id="record_270" model="hr.os">
+      <field name="name">O.S.PORTUARIOS DE PUERTO SAN MARTIN Y BELLA VISTA</field>
+      <field name="code">116709</field>
+    </record>
+    <record id="record_271" model="hr.os">
+      <field name="name">O.S.REFINERIAS DE MAIZ S.A.I.C.F.</field>
+      <field name="code">302809</field>
+    </record>
+    <record id="record_272" model="hr.os">
+      <field name="name">O.S.SUPERCO</field>
+      <field name="code">303109</field>
+    </record>
+    <record id="record_273" model="hr.os">
+      <field name="name">O.S.VOLKSWAGEN ARGENTINA S.A.</field>
+      <field name="code">304003</field>
+    </record>
+    <record id="record_274" model="hr.os">
+      <field name="name">O.S.Y SINDICATO DEL PERSONAL MENSUALIZADO DEL JOCKEY CLUB DE BUENOS AIRES Y LOS HIPODROMOS DE PALERMO Y SAN ISIDRO</field>
+      <field name="code">109608</field>
+    </record>
+    <record id="record_275" model="hr.os">
+      <field name="name">OBRA SOCIAL DE LA ASOCIACIÓN DEL PERSONAL SUPERIOR DE EPEC</field>
+      <field name="code">129006</field>
+    </record>
+    <record id="record_276" model="hr.os">
+      <field name="name">OBRA SOCIAL DE LA PREVENCIÓN Y LA SALUD</field>
+      <field name="code">3801</field>
+    </record>
+    <record id="record_277" model="hr.os">
+      <field name="name">OBRA SOCIAL DE LA UNION DE TRABAJADORES DEL INSSJyP</field>
+      <field name="code">128102</field>
+    </record>
+    <record id="record_278" model="hr.os">
+      <field name="name">OBRA SOCIAL DE LOS MEDICOS DE LA CIUDAD DE BUENOS AIRES</field>
+      <field name="code">126908</field>
+    </record>
+    <record id="record_279" model="hr.os">
+      <field name="name">OBRA SOCIAL DE LOS TRABAJADORES ARGENTINOS DE CENTROS DE CONTACTOS</field>
+      <field name="code">128904</field>
+    </record>
+    <record id="record_280" model="hr.os">
+      <field name="name">OBRA SOCIAL DE PEONES DE TAXI DE ROSARIO</field>
+      <field name="code">128300</field>
+    </record>
+    <record id="record_281" model="hr.os">
+      <field name="name">OBRA SOCIAL DE TRABAJADORES DEL PETROLEO Y GAS PRIVADO DEL CHUBUT</field>
+      <field name="code">128607</field>
+    </record>
+    <record id="record_282" model="hr.os">
+      <field name="name">OBRA SOCIAL DEL PERSONAL DE DRAGADO Y BALIZAMIENTO</field>
+      <field name="code">128706</field>
+    </record>
+    <record id="record_283" model="hr.os">
+      <field name="name">OBRA SOCIAL DEL SINDICATO UNIC DE RECOLECTORES DE RESIDUOS Y BARRIDO DE CORDOBA</field>
+      <field name="code">128201</field>
+    </record>
+    <record id="record_284" model="hr.os">
+      <field name="name">OBRA SOCIAL FARMACEUTICOS Y BIOQUIMICOS</field>
+      <field name="code">128508</field>
+    </record>
+    <record id="record_285" model="hr.os">
+      <field name="name">OBRA SOCIAL PARA EMPLEADOS Y PRODUCTORES DE ENTIDADES DE LA ACTIVIDAD AGROPECUARIA Y AGROALIMENTARIA DE LA ENCONOMIA SOCIAL</field>
+      <field name="code">4002</field>
+    </record>
+    <record id="record_286" model="hr.os">
+      <field name="name">OBRA SOCIAL PROGRAMAS MEDICOS SOCIEDAD ARGENTINA DE CONSULTORIA MUTUAL</field>
+      <field name="code">3603</field>
+    </record>
+    <record id="record_287" model="hr.os">
+      <field name="name">OBRA SOCIAL TÉCNICOS DE VUELO LINEAS AEREAS</field>
+      <field name="code">3900</field>
+    </record>
+    <record id="record_288" model="hr.os">
+      <field name="name">OBRA SOCIAL YACIMIENTOS CARBONIFEROS</field>
+      <field name="code">3702</field>
+    </record>
+    <record id="record_289" model="hr.os">
+      <field name="name">OMINT SOCIEDAD ANONlMA DE SERVICIOS</field>
+      <field name="code">902900</field>
+    </record>
+    <record id="record_290" model="hr.os">
+      <field name="name">ORGANIZACION DE SERVICIOS DIRECTOS EMPRESARIOS</field>
+      <field name="code">400800</field>
+    </record>
+    <record id="record_291" model="hr.os">
+      <field name="name">OS ASOCIACION DE SERVICIOS SOCIALES PARA EMPRESARIOS Y PERSONAL DE DIRECCION DE EMPRESAS DEL COMERCIO, SERVICIOS, PRODUCCION, INDUSTRIA Y CIVIL (ASPE)</field>
+      <field name="code">402608</field>
+    </record>
+    <record id="record_292" model="hr.os">
+      <field name="name">OS CONDUCTORES TITULARES DE TAXIS DE LA CDAD AUT. BS.AS.</field>
+      <field name="code">3504</field>
+    </record>
+    <record id="record_293" model="hr.os">
+      <field name="name">OS CONFEDERACION DE OBREROS Y EMPLEADOS MUNICIPALES ARGENTINA</field>
+      <field name="code">126502</field>
+    </record>
+    <record id="record_294" model="hr.os">
+      <field name="name">OS DE CONDUCTORES DE REMISES Y AUTOS AL INSTANTE Y AFINES</field>
+      <field name="code">126809</field>
+    </record>
+    <record id="record_295" model="hr.os">
+      <field name="name">OS DE DIRECCION DE LA ACTIVIDAD AEROCOMERCIAL PRIVADA</field>
+      <field name="code">402806</field>
+    </record>
+    <record id="record_296" model="hr.os">
+      <field name="name">OS DE LA ASOCIACION MUTUAL DE LOS OBREROS CATOLICOS PADRE FEDERICO GROTE</field>
+      <field name="code">3405</field>
+    </record>
+    <record id="record_297" model="hr.os">
+      <field name="name">OS DE LA CAMARA DE EMPRESARIOS DE AGENCIAS DE REMISES DE LA PROVINCIA DE BUENOS AIRES (O.S.C.E.A.R.B.A)</field>
+      <field name="code">2808</field>
+    </record>
+    <record id="record_298" model="hr.os">
+      <field name="name">OS DE LAS ASOCIACIONES DE EMPLEADOS DE FARMACIA (OSADEF)</field>
+      <field name="code">127505</field>
+    </record>
+    <record id="record_299" model="hr.os">
+      <field name="name">OS DE LOS INMIGRANTES ESPANOLES Y SUS DESCENDIENTES RESIDENTES DE LA RA</field>
+      <field name="code">3108</field>
+    </record>
+    <record id="record_300" model="hr.os">
+      <field name="name">OS DE LOS TRABAJADORES ASOCIADOS A LA ASOCIACION MUTUAL MERCANTIL ARGENTINA (OSTAMMA)</field>
+      <field name="code">2709</field>
+    </record>
+    <record id="record_301" model="hr.os">
+      <field name="name">OS DE LUZ Y FUERZA DE LA PATAGONIA</field>
+      <field name="code">127802</field>
+    </record>
+    <record id="record_302" model="hr.os">
+      <field name="name">OS DE MANDOS MEDIOS DE LAS TELECOMUNICACIONES DE LA RA Y EL MERCOSUR - OSMMEDT</field>
+      <field name="code">127208</field>
+    </record>
+    <record id="record_303" model="hr.os">
+      <field name="name">OS DE OBREROS Y EMPLEADOS TINTOREROS, SOMBREROS Y LAVADEROS DE LA R.A.</field>
+      <field name="code">127406</field>
+    </record>
+    <record id="record_304" model="hr.os">
+      <field name="name">OS DE PETROLEROS PRIVADOS</field>
+      <field name="code">127901</field>
+    </record>
+    <record id="record_305" model="hr.os">
+      <field name="name">OS DE TRABAJADORES SOCIOS DE LA ASOCIACION MUTUAL DEL PERSONAL JERARQUICO DE BANCOS OFICIALES - JERARQUICO SALUD</field>
+      <field name="code">3207</field>
+    </record>
+    <record id="record_306" model="hr.os">
+      <field name="name">OS DE TRABAJADORES VIALES Y AFINES DE LA REPUBLICA ARGENTINA</field>
+      <field name="code">127307</field>
+    </record>
+    <record id="record_307" model="hr.os">
+      <field name="name">OS DEL PERSONAL DE LA ACTIVIDAD AZUCARERA TUCUMANA</field>
+      <field name="code">126700</field>
+    </record>
+    <record id="record_308" model="hr.os">
+      <field name="name">OS DEL PERSONAL DE LA FEDERACION DE SINDICATOS DE LA INDUSTRIA QUIMICA Y PETROQUIMICA</field>
+      <field name="code">128003</field>
+    </record>
+    <record id="record_309" model="hr.os">
+      <field name="name">OS DEL PERSONAL DE LA UNION DE TRABAJADORES DEL TURISMO, HOTELEROS Y GASTRONOMICOS DE LA RA (OSUTHGRA)</field>
+      <field name="code">108803</field>
+    </record>
+    <record id="record_310" model="hr.os">
+      <field name="name">OS DEL PERSONAL DE LAS TELECOMUNICACIONES SINDICATO BS AS (OSPETELCO)</field>
+      <field name="code">127109</field>
+    </record>
+    <record id="record_311" model="hr.os">
+      <field name="name">OS PERSONAL ESTACIONES DE SERVICIO, GARAGES, PLAYAS Y LAVADEROS DE LA PCIA. CHACO</field>
+      <field name="code">127703</field>
+    </record>
+    <record id="record_312" model="hr.os">
+      <field name="name">OS TRABAJADORES VENDEDORES DE DIARIOS, REVISTAS Y AFINES (OSTVENDRA)</field>
+      <field name="code">3306</field>
+    </record>
+    <record id="record_313" model="hr.os">
+      <field name="name">OS YPF</field>
+      <field name="code">402509</field>
+    </record>
+    <record id="record_314" model="hr.os">
+      <field name="name">OS. ASOCIACION CIVIL PRO SINDICATO AMAS DE CASA DE LA REPUBLICA ARGENTINA</field>
+      <field name="code">1508</field>
+    </record>
+    <record id="record_315" model="hr.os">
+      <field name="name">OS. EMPLEADOS Y PERSONAL JERARQUICO DEL NEUMATICO ARGENTINO DE NEUMATICOS GOOD YEAR S.R.L.</field>
+      <field name="code">2204</field>
+    </record>
+    <record id="record_316" model="hr.os">
+      <field name="name">Obra Social de Legisladores de la Republica Argentina</field>
+      <field name="code">1805</field>
+    </record>
+    <record id="record_317" model="hr.os">
+      <field name="name">PARQUE SALUD S.A.</field>
+      <field name="code">902009</field>
+    </record>
+    <record id="record_318" model="hr.os">
+      <field name="name">PLENIMEDICAL S.A.</field>
+      <field name="code">902405</field>
+    </record>
+    <record id="record_319" model="hr.os">
+      <field name="name">PRESTADORES SANATORIALES SA</field>
+      <field name="code">900706</field>
+    </record>
+    <record id="record_320" model="hr.os">
+      <field name="name">PREVENCIÓN SALUD S.A.</field>
+      <field name="code">903507</field>
+    </record>
+    <record id="record_321" model="hr.os">
+      <field name="name">ROI S A</field>
+      <field name="code">903408</field>
+    </record>
+    <record id="record_322" model="hr.os">
+      <field name="name">SABER SOCIEDAD ANÖNIMA</field>
+      <field name="code">900607</field>
+    </record>
+    <record id="record_323" model="hr.os">
+      <field name="name">SOCIEDAD ITALIANA DE BENEFICENCIA EN BUENOS AIRES</field>
+      <field name="code">902702</field>
+    </record>
+    <record id="record_324" model="hr.os">
+      <field name="name">SOREMER S.A.</field>
+      <field name="code">901907</field>
+    </record>
+    <record id="record_325" model="hr.os">
+      <field name="name">SWISS MEDICAL SA</field>
+      <field name="code">900805</field>
+    </record>
+    <record id="record_326" model="hr.os">
+      <field name="name">Sin Obra Social</field>
+      <field name="code">0</field>
+    </record>
+  </data>
+</odoo>

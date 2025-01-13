@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Sequence -->
+    <data noupdate="1">
+        <record id="seq_hr_employee_sanction" model="ir.sequence">
+            <field name="name">Secuencia de Sanciones</field>
+            <field name="code">hr.employee.sanction</field>
+            <field name="prefix">SANC/</field>
+            <field name="padding">5</field>
+            <field name="company_id" eval="False"/>
+        </record>
+    </data>
+
+    <!-- Tree View -->
+    <record id="view_hr_employee_sanction_tree" model="ir.ui.view">
+        <field name="name">hr.employee.sanction.tree</field>
+        <field name="model">hr.employee.sanction</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="employee_id"/>
+                <field name="date"/>
+                <field name="sanction_type"/>
+                <field name="state"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Form View -->
+    <record id="view_hr_employee_sanction_form" model="ir.ui.view">
+        <field name="name">hr.employee.sanction.form</field>
+        <field name="model">hr.employee.sanction</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                    <button name="action_confirm" 
+                            string="Confirmar" 
+                            type="object" 
+                            class="oe_highlight"
+                            invisible="state != 'draft'"/>
+                    <button name="action_cancel" 
+                            string="Cancelar" 
+                            type="object"
+                            invisible="state not in ['draft', 'confirmed']"/>
+                    <button name="action_draft" 
+                            string="Volver a Borrador" 
+                            type="object"
+                            invisible="state != 'cancelled'"/>
+                    <field name="state" widget="statusbar"/>
+                </header>
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" readonly="1"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="employee_id"/>
+                            <field name="date"/>
+                            <field name="sanction_type"/>
+                            <field name="suspension_days" 
+                                   invisible="sanction_type != 'suspension'"
+                                   required="sanction_type == 'suspension'"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Detalles">
+                            <group>
+                                <field name="reason"/>
+                                <field name="description"/>
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids"/>
+                    <field name="activity_ids"/>
+                    <field name="message_ids"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <!-- Search View -->
+    <record id="view_hr_employee_sanction_search" model="ir.ui.view">
+        <field name="name">hr.employee.sanction.search</field>
+        <field name="model">hr.employee.sanction</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+                <field name="employee_id"/>
+                <field name="date"/>
+                <field name="sanction_type"/>
+                <field name="state"/>
+                <filter string="Mis Sanciones" name="my_sanctions" domain="[('employee_id.user_id', '=', uid)]"/>
+                <filter string="Borradores" name="draft" domain="[('state', '=', 'draft')]"/>
+                <filter string="Confirmadas" name="confirmed" domain="[('state', '=', 'confirmed')]"/>
+                <group expand="0" string="Agrupar Por">
+                    <filter name="group_employee" string="Empleado" context="{'group_by': 'employee_id'}"/>
+                    <filter name="group_date" string="Fecha" context="{'group_by': 'date'}"/>
+                    <filter name="group_type" string="Tipo de Sanción" context="{'group_by': 'sanction_type'}"/>
+                    <filter name="group_state" string="Estado" context="{'group_by': 'state'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <!-- Action -->
+    <record id="action_hr_employee_sanction" model="ir.actions.act_window">
+        <field name="name">Sanciones</field>
+        <field name="res_model">hr.employee.sanction</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_hr_employee_sanction_search"/>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                No hay sanciones registradas
+            </p>
+            <p>
+                Crea una nueva sanción para un empleado.
+            </p>
+        </field>
+    </record>
+
+    <!-- Inherit Employee Form View -->
+    <record id="view_employee_form_inherit_sanctions" model="ir.ui.view">
+        <field name="name">hr.employee.form.inherit.sanctions</field>
+        <field name="model">hr.employee</field>
+        <field name="inherit_id" ref="hr.view_employee_form"/>
+        <field name="arch" type="xml">
+            <div name="button_box" position="inside">
+                <button name="%(action_hr_employee_sanction)d"
+                        type="action"
+                        class="oe_stat_button"
+                        icon="fa-warning"
+                        context="{'default_employee_id': active_id}">
+                    <field name="sanction_count" widget="statinfo" string="Sanciones"/>
+                </button>
+            </div>
+        </field>
+    </record>
+</odoo>

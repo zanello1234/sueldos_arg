@@ -1,0 +1,29 @@
+<odoo>
+    <!-- Vista de lista -->
+    <record id="view_hr_union_tree" model="ir.ui.view">
+        <field name="name">hr.union.tree</field>
+        <field name="model">hr.union</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" />
+                <field name="code" />
+                <field name="active" />
+            </tree>
+        </field>
+    </record>
+
+    <!-- Acción -->
+    <record id="action_hr_union" model="ir.actions.act_window">
+        <field name="name">Sindicato</field>
+        <field name="res_model">hr.union</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- Menús -->
+    <record id="menu_hr_union" model="ir.ui.menu">
+        <field name="name">Sindicato</field>
+        <field name="parent_id" ref="menu_hr_localization_root" />
+        <field name="action" ref="action_hr_union" />
+        <field name="sequence">91</field>
+    </record>
+</odoo>
