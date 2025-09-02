@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Vista de formulario para el registro de accidentes -->
+        <record id="view_accident_record_form" model="ir.ui.view">
+            <field name="name">hr.accident.record.form</field>
+            <field name="model">hr.accident.record</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="employee_id"/>
+                                <field name="fecha_inicio"/>
+                                <field name="hora" widget="float_time"/>
+                                <field name="fecha_fin"/>
+                                <field name="detalle"/>
+                            </group>
+                            <group>
+                                <field name="hubo_heridos"/>
+                                <field name="es_inculpable"/>
+                                <field name="genera_ausencia"/>
+                                <field name="cubre_art"/>
+                                <field name="fue_denunciado"/>
+                                <field name="denuncia" filename="denuncia_filename"/>
+                                <field name="denuncia_filename" invisible="1"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Vista tree para el registro de accidentes -->
+        <record id="view_accident_record_tree" model="ir.ui.view">
+            <field name="name">hr.accident.record.tree</field>
+            <field name="model">hr.accident.record</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="fecha_inicio"/>
+                    <field name="hora" widget="float_time"/>
+                    <field name="detalle"/>
+                    <field name="hubo_heridos"/>
+                    <field name="cubre_art"/>
+                    <field name="fue_denunciado"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Agregar pestaña en la vista de empleado para accidentes -->
+        <record id="hr_employee_view_form_inherit_accidents" model="ir.ui.view">
+            <field name="name">hr.employee.view.form.inherit.accidents</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_form"/>
+            <field name="arch" type="xml">
+                <notebook position="inside">
+                    <page string="Registro de Accidentes" name="accident_records">
+                        <field name="accident_record_ids" context="{'default_employee_id': active_id}">
+                            <tree editable="bottom">
+                                <field name="fecha_inicio"/>
+                                <field name="hora" widget="float_time"/>
+                                <field name="fecha_fin"/>
+                                <field name="detalle"/>
+                                <field name="hubo_heridos"/>
+                                <field name="es_inculpable"/>
+                                <field name="genera_ausencia"/>
+                                <field name="cubre_art"/>
+                                <field name="fue_denunciado"/>
+                                <field name="denuncia" filename="denuncia_filename"/>
+                                <field name="denuncia_filename" invisible="1"/>
+                            </tree>
+                        </field>
+                    </page>
+                </notebook>
+            </field>
+        </record>
+
+        <!-- Vista para ausencias -->
+        <record id="hr_employee_view_form_inherit_leaves" model="ir.ui.view">
+            <field name="name">hr.employee.view.form.inherit.leaves</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_form"/>
+            <field name="arch" type="xml">
+                <notebook position="inside">
+                    <page string="Ausencias" name="leaves">
+                        <field name="employee_leaves" readonly="1">
+                            <tree>
+                                <field name="holiday_status_id"/>
+                                <field name="date_from"/>
+                                <field name="date_to"/>
+                                <field name="number_of_days"/>
+                                <field name="state"/>
+                            </tree>
+                        </field>
+                    </page>
+                </notebook>
+            </field>
+        </record>
+
+        <!-- Action window para accidentes -->
+        <record id="action_hr_accident_record" model="ir.actions.act_window">
+            <field name="name">Registro de Accidentes</field>
+            <field name="res_model">hr.accident.record</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <!-- Menú para accidentes -->
+        <menuitem id="menu_hr_accident_record"
+                  name="Registro de Accidentes"
+                  parent="hr.menu_hr_root"
+                  action="action_hr_accident_record"
+                  sequence="100"/>
+    </data>
+</odoo>

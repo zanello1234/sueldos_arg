@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Archive default Odoo rules -->
+    <function model="hr.salary.rule" name="write">
+        <value eval="[ref('hr_payroll.default_basic_salary_rule'),
+                     ref('hr_payroll.default_attachment_of_salary_rule'),
+                     ref('hr_payroll.default_assignment_of_salary_rule'),
+                     ref('hr_payroll.default_child_support'),
+                     ref('hr_payroll.default_deduction_salary_rule'),
+                     ref('hr_payroll.default_reimbursement_salary_rule')]"/>
+        <value eval="{'active': False}"/>
+    </function>
+
+    <!-- Base Salary -->
+    <record id="hr_salary_rule_basic" model="hr.salary.rule">
+        <field name="name">Basic Salary</field>
+        <field name="code">BASIC</field>
+        <field name="category_id" ref="hr_payroll.BASIC"/>
+        <field name="sequence">1</field>
+        <field name="condition_select">none</field>
+        <field name="amount_select">code</field>
+        <field name="amount_python_compute">result = contract.wage</field>
+        <field name="struct_id" ref="hr_payroll.default_structure"/>
+    </record>
+
+    <!-- Presentismo -->
+    <record id="hr_salary_rule_presenteeism" model="hr.salary.rule">
+        <field name="name">Presentismo</field>
+        <field name="code">PRES</field>
+        <field name="category_id" ref="hr_payroll.ALW"/>
+        <field name="sequence">5</field>
+        <field name="condition_select">python</field>
+        <field name="condition_python">result = worked_days.WORK100 and worked_days.WORK100.number_of_days == 30</field>
+        <field name="amount_select">percentage</field>
+        <field name="amount_percentage">8.33</field>
+        <field name="amount_percentage_base">contract.wage</field>
+        <field name="struct_id" ref="hr_payroll.default_structure"/>
+    </record>
+
+    <!-- Antigüedad -->
+    <record id="hr_salary_rule_seniority" model="hr.salary.rule">
+        <field name="name">Antigüedad</field>
+        <field name="code">ANT</field>
+        <field name="category_id" ref="hr_payroll.ALW"/>
+        <field name="sequence">6</field>
+        <field name="condition_select">python</field>
+        <field name="condition_python">result = True</field>
+        <field name="amount_select">code</field>
+        <field name="amount_python_compute">years = employee.years_of_service
+result = (contract.wage * 0.01) * years</field>
+        <field name="struct_id" ref="hr_payroll.default_structure"/>
+    </record>
+
+    <!-- SAC -->
+    <record id="hr_salary_rule_sac" model="hr.salary.rule">
+        <field name="name">SAC</field>
+        <field name="code">SAC</field>
+        <field name="category_id" ref="hr_payroll.ALW"/>
+        <field name="sequence">10</field>
+        <field name="condition_select">python</field>
+        <field name="condition_python">result = payslip.type_id.code == 'SAC'</field>
+        <field name="amount_select">code</field>
+        <field name="amount_python_compute">result = contract.wage / 2</field>
+        <field name="struct_id" ref="hr_payroll.default_structure"/>
+    </record>
+
+    <!-- Retirement -->
+    <record id="hr_salary_rule_retirement" model="hr.salary.rule">
+        <field name="name">Jubilación</field>
+        <field name="code">JUB</field>
+        <field name="category_id" ref="hr_payroll.DED"/>
+        <field name="sequence">101</field>
+        <field name="condition_select">none</field>
+        <field name="amount_select">percentage</field>
+        <field name="amount_percentage">11</field>
+        <field name="amount_percentage_base">categories['BASIC'] + categories['ALW']</field>
+        <field name="struct_id" ref="hr_payroll.default_structure"/>
+    </record>
+
+    <!-- Law 19032 (PAMI) -->
+    <record id="hr_salary_rule_law19032" model="hr.salary.rule">
+        <field name="name">PAMI</field>
+        <field name="code">PAMI</field>
+        <field name="category_id" ref="hr_payroll.DED"/>
+        <field name="sequence">102</field>
+        <field name="condition_select">none</field>
+        <field name="amount_select">percentage</field>
+        <field name="amount_percentage">3</field>
+        <field name="amount_percentage_base">categories['BASIC'] + categories['ALW']</field>
+        <field name="struct_id" ref="hr_payroll.default_structure"/>
+    </record>
+
+    <!-- Social Work -->
+    <record id="hr_salary_rule_social_work" model="hr.salary.rule">
+        <field name="name">Obra Social</field>
+        <field name="code">OS</field>
+        <field name="category_id" ref="hr_payroll.DED"/>
+        <field name="sequence">103</field>
+        <field name="condition_select">none</field>
+        <field name="amount_select">percentage</field>
+        <field name="amount_percentage">3</field>
+        <field name="amount_percentage_base">categories['BASIC'] + categories['ALW']</field>
+        <field name="struct_id" ref="hr_payroll.default_structure"/>
+    </record>
+</odoo>

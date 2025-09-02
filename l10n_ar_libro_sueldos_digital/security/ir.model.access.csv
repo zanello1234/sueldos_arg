@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_hr_art52_book_user,hr.art52.book.user,model_hr_art52_book,hr_payroll.group_hr_payroll_user,1,1,1,0
+access_hr_art52_book_manager,hr.art52.book.manager,model_hr_art52_book,hr_payroll.group_hr_payroll_manager,1,1,1,1
+access_hr_conceptos_afip_user,hr.conceptos.afip.user,model_hr_conceptos_afip,hr_payroll.group_hr_payroll_user,1,1,1,0
+access_hr_conceptos_afip_manager,hr.conceptos.afip.manager,model_hr_conceptos_afip,hr_payroll.group_hr_payroll_manager,1,1,1,1

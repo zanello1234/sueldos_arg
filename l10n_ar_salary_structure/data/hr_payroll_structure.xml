@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Comercio -->
+    <record id="structure_comercio_regular" model="hr.payroll.structure">
+        <field name="name">Comercio Regular</field>
+        <field name="type_id" ref="l10n_ar_salary_structure.record_001"/>
+        <field name="use_worked_day_lines" eval="True"/>
+        <field name="country_id" ref="base.ar"/>
+        <field name="schedule_pay">monthly</field>
+        <field name="payslip_name">Recibo Comercio</field>
+        <field name="active" eval="True"/>
+    </record>
+
+    <record id="structure_comercio_sac" model="hr.payroll.structure">
+        <field name="name">Comercio SAC</field>
+        <field name="type_id" ref="l10n_ar_salary_structure.record_002"/>
+        <field name="use_worked_day_lines" eval="False"/>
+        <field name="country_id" ref="base.ar"/>
+        <field name="schedule_pay">semi-annually</field>
+        <field name="payslip_name">SAC Comercio</field>
+        <field name="active" eval="True"/>
+    </record>
+
+    <record id="structure_comercio_vacation" model="hr.payroll.structure">
+        <field name="name">Comercio Vacaciones</field>
+        <field name="type_id" ref="l10n_ar_salary_structure.record_003"/>
+        <field name="use_worked_day_lines" eval="False"/>
+        <field name="country_id" ref="base.ar"/>
+        <field name="schedule_pay">monthly</field>
+        <field name="payslip_name">Vacaciones Comercio</field>
+        <field name="active" eval="True"/>
+    </record>
+
+    <record id="structure_comercio_final" model="hr.payroll.structure">
+        <field name="name">Comercio Liquidación Final</field>
+        <field name="type_id" ref="l10n_ar_salary_structure.record_004"/>
+        <field name="use_worked_day_lines" eval="False"/>
+        <field name="country_id" ref="base.ar"/>
+        <field name="schedule_pay">monthly</field>
+        <field name="payslip_name">Liquidación Final Comercio</field>
+        <field name="active" eval="True"/>
+    </record>
+
+</odoo>

@@ -1,0 +1,11 @@
+id,name,code,active,cct_ids
+employee_management_extended.hr_union_1,Asociación de Trabajadores del Estado (ATE),1,TRUE,
+employee_management_extended.hr_union_2,Unión Obrera Metalúrgica (UOM),2,TRUE,
+employee_management_extended.hr_union_3,Sindicato de Camioneros,3,TRUE,
+employee_management_extended.hr_union_4,Unión Tranviarios Automotor (UTA),4,TRUE,
+employee_management_extended.hr_union_5,Sindicato de Comercio (SEC),5,TRUE,
+employee_management_extended.hr_union_6,Sindicato Argentino de Docentes Privados (SADOP),6,TRUE,
+employee_management_extended.hr_union_7,Federación Argentina de Trabajadores de la Sanidad (FATSA),7,TRUE,
+employee_management_extended.hr_union_8,Unión Ferroviaria (UF),8,TRUE,
+employee_management_extended.hr_union_9,Asociación Bancaria,9,TRUE,
+employee_management_extended.hr_union_10,Sindicato de Trabajadores de la Industria de la Construcción (SITRAIC),10,TRUE,

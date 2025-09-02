@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_hr_art52_book_form" model="ir.ui.view">
+        <field name="name">hr.art52.book.form</field>
+        <field name="model">hr.art52.book</field>
+        <field name="arch" type="xml">
+            <form string="Libro Especial Art. 52 LCT">
+                <header>
+                    <field name="state" widget="statusbar" />
+                    <button name="generate_txt_file" 
+                        string="Generar TXT" 
+                        type="object" 
+                        class="oe_highlight" 
+                        invisible="state not in ('draft')"/>
+                    <button name="download_txt" 
+                        string="Descargar TXT" 
+                        type="object"
+                        class="oe_highlight" 
+                        invisible="state not in ('generated','printed')"/>
+                    <button name="set_to_printed" 
+                        string="Marcar como Impreso" 
+                        type="object" 
+                        invisible="state not in ('generated')"/>
+                </header>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name" />
+                            <field name="identificacion_envio"/>
+                            <field name="payslip_run_id"/>
+                            <field name="date" />
+                            <field name="tipo_empresa"/>
+                            <field name="tipo_liquidacion"/>
+                            <field name="numero_liquidacion"/>
+                        </group>
+                        <group>
+                            <field name="fecha_presentacion" readonly="1"/>
+                            <field name="txt_file" filename="txt_filename" readonly="1"/>
+                            <field name="txt_filename" invisible="1"/>
+                            <field name="acuse_recibo" filename="acuse_recibo_filename"/>
+                            <field name="acuse_recibo_filename" invisible="1"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Empleados">
+                            <field name="employee_ids" readonly="1">
+                                <tree string="Recibos de Sueldo">
+                                    <field name="legajo"/>
+                                    <field name="name"/>
+                                    <field name="ssnid"/>
+                                    <field name="children"/>
+                                    <field name="bank_account_id"/>
+                                    <field name="situacion_revista_id"/>
+                                    <field name="marca_cct"/>
+                                    <field name="svo"/>
+                                    <field name="obra_social"/>
+                                </tree>
+                            </field>
+                        </page>
+                        <page string="Recibos de Sueldo">
+                            <field name="payslip_ids" readonly="1">
+                                <tree>
+                                    <field name="employee_id"/>
+                                    <field name="number"/>
+                                    <field name="date_from"/>
+                                    <field name="date_to"/>
+                                    <field name="state"/>
+                                    <field name="payment_type"/>
+                                    <field name="status"/>
+                                </tree>
+                            </field>
+                        </page>
+                        <page string="Datos del Contrato">
+                            <field name="contract_ids" readonly="1">
+                                <tree>
+                                    <field name="employee_id"/>
+                                    <field name="name"/>
+                                    <field name="date_start"/>
+                                    <field name="date_end"/>
+                                    <field name="state"/>
+                                </tree>
+                            </field>
+                        </page>
+                        <page string="Líneas de Recibos">
+                            <field name="payslip_line_ids" readonly="1">
+                                <tree>
+                                    <field name="slip_id"/>
+                                    <field name="employee_id"/>
+                                    <field name="name"/>
+                                    <field name="code"/>
+                                    <field name="category_id"/>
+                                    <field name="quantity"/>
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+                    <notebook>
+                        <page string="Registro 01 - Datos de la Empresa">
+                            <group>
+                                <field name="reg01_txt" readonly="1"/>
+                            </group>
+                        </page>
+                        <page string="Registro 02 - Datos del Personal">
+                            <group>
+                                <field name="reg02_txt" readonly="1"/>
+                            </group>
+                        </page>
+                        <page string="Registro 03 - Datos de las Remuneraciones">
+                            <group>
+                                <field name="reg03_txt" readonly="1"/>
+                            </group>
+                        </page>
+                        <page string="Registro 04 - Datos de los Aportes">
+                            <group>
+                                <field name="reg04_txt" readonly="1"/>
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_hr_art52_book_tree" model="ir.ui.view">
+        <field name="name">hr.art52.book.tree</field>
+        <field name="model">hr.art52.book</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="date"/>
+                <field name="payslip_run_id"/>
+                <field name="tipo_empresa"/>
+                <field name="state"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_hr_art52_book" model="ir.actions.act_window">
+        <field name="name">Libro Art. 52 LCT</field>
+        <field name="res_model">hr.art52.book</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="menu_hr_art52_book"
+        name="Libro Art. 52 LCT"
+        parent="hr_payroll.menu_hr_payroll_employees_root"
+        action="action_hr_art52_book"
+        sequence="100" />
+</odoo>

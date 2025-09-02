@@ -1,0 +1,105 @@
+<odoo>
+    <!-- Definición del template de informe -->
+    <template id="report_art52_book">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="o">
+                <t t-call="web.external_layout">
+                    <div class="page">
+                        <h2>Libro Especial Art. 52 LCT</h2>
+                        <div class="row mt-4">
+                            <div class="col-6">
+                                <strong>Empresa:</strong> <span t-field="o.company_id.name"/>
+                            </div>
+                            <div class="col-6">
+                                <strong>Período:</strong> 
+                                <span t-field="o.date" t-options='{"format": "MM/YYYY"}'/>
+                            </div>
+                        </div>
+
+                        <table class="table table-sm table-bordered mt-4">
+                            <thead>
+                                <tr>
+                                    <th>Legajo</th>
+                                    <th>Apellido y Nombre</th>
+                                    <th>CUIL</th>
+                                    <th>Fecha Ingreso</th>
+                                    <th>Estado Civil</th>
+                                    <th>Categoría</th>
+                                    <th>Contrato</th>
+                                    <th>Situación Revista</th>
+                                    <th>Sueldo Básico</th>
+                                    <th>Adicionales</th>
+                                    <th>Total Remuneración</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <t t-foreach="o.payslip_ids" t-as="slip">
+                                    <tr>
+                                        <td><span t-field="slip.employee_id.legajo"/></td>
+                                        <td><span t-field="slip.employee_id.name"/></td>
+                                        <td><span t-field="slip.employee_id.identification_id"/></td>
+                                        <td><span t-field="slip.contract_id.date_start"/></td>
+                                        <td><span t-field="slip.employee_id.marital"/></td>
+                                        <td><span t-field="slip.contract_id.job_id"/></td>
+                                        <td><span t-field="slip.contract_id.name"/></td>
+                                        <td><span t-field="slip.employee_id.situacion_revista_id"/></td>
+                                        <td class="text-right">
+                                            <span t-esc="slip.line_ids.filtered(lambda l: l.code == 'BASIC')[0].total" t-options='{"widget": "monetary"}'/>
+                                        </td>
+                                        <td class="text-right">
+                                            <span t-esc="sum(slip.line_ids.filtered(lambda l: l.category_id.code == 'ALW').mapped('total'))" t-options='{"widget": "monetary"}'/>
+                                        </td>
+                                        <td class="text-right">
+                                            <span t-field="slip.total_amount"/>
+                                        </td>
+                                    </tr>
+                                    <!-- Detalle de conceptos -->
+                                    <tr>
+                                        <td colspan="11">
+                                            <table class="table table-sm">
+                                                <t t-foreach="slip.line_ids.mapped('category_id')" t-as="category">
+                                                    <tr>
+                                                        <th colspan="3"><span t-field="category.name"/></th>
+                                                    </tr>
+                                                    <t t-foreach="slip.line_ids.filtered(lambda l: l.category_id == category)" t-as="line">
+                                                        <tr>
+                                                            <td><span t-field="line.code"/></td>
+                                                            <td><span t-field="line.name"/></td>
+                                                            <td class="text-right"><span t-field="line.total"/></td>
+                                                        </tr>
+                                                    </t>
+                                                </t>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </t>
+                            </tbody>
+                        </table>
+
+                        <div class="row justify-content-end">
+                            <div class="col-4">
+                                <table class="table table-sm">
+                                    <tr>
+                                        <td><strong>Total Empleados:</strong></td>
+                                        <td><span t-esc="len(o.employee_ids)"/></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </t>
+            </t>
+        </t>
+    </template>
+
+    <!-- Definición de la acción de reporte -->
+    <record id="action_report_hr_art52_book" model="ir.actions.report">
+        <field name="name">Libro Art. 52 LCT</field>
+        <field name="model">hr.art52.book</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">l10n_ar_libro_sueldos_digital.report_art52_book</field>
+        <field name="binding_model_id" ref="model_hr_art52_book"/>
+        <field name="binding_type">report</field>
+        <field name="print_report_name">'Libro_Art52_' + (object.date and object.date.strftime('%Y_%m') or '')</field>
+    </record>
+</odoo>

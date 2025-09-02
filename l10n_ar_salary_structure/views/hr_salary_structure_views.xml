@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Create base view first -->
+    <record id="hr_payroll_structure_form" model="ir.ui.view">
+        <field name="name">hr.payroll.structure.form</field>
+        <field name="model">hr.payroll.structure</field>
+        <field name="arch" type="xml">
+            <form string="Salary Structure">
+                <sheet>
+                    <div class="oe_button_box" name="button_box"/>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="code"/>
+                            <field name="country_id"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="libro_de_sueldos_digital" model="ir.module.module">
+        <field name="name">Libro de Sueldos Digital</field>
+        <field name="version">17.0.1.0.0</field>
+        <field name="depends">hr_payroll</field>
+        <field name="data">
+            <value model="ir.model.access.csv"/>
+            <value model="views/hr_art52_book_views.xml"/>
+            <value model="reports/art52_book_templates.xml"/>
+        </field>
+    </record>
+
+</odoo>

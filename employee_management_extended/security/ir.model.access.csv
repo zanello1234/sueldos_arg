@@ -1,0 +1,15 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_hr_employee_user,access.hr.employee.user,hr.model_hr_employee,,1,1,1,1
+access_hr_os_user,access.hr.os.user,model_hr_os,,1,1,1,1
+access_hr_union_user,access.hr.union.user,model_hr_union,,1,1,1,1
+access_hr_categorias_user,access.hr.categorias.user,model_hr_categorias,,1,1,1,1
+access_hr_contract_modality_user,access.hr.contract_modality.user,model_hr_contract_modality,,1,1,1,1
+access_hr_accident_record_user,hr.accident.record.user,model_hr_accident_record,hr.group_hr_user,1,1,1,1
+access_hr_accident_record_manager,hr.accident.record.manager,model_hr_accident_record,hr.group_hr_manager,1,1,1,1
+access_hr_employee_sanction_user,hr.employee.sanction.user,model_hr_employee_sanction,hr.group_hr_user,1,1,1,1
+access_hr_employee_sanction_manager,hr.employee.sanction.manager,model_hr_employee_sanction,hr.group_hr_manager,1,1,1,1
+access_hr_situacion_revista_user,access.hr.situacion.revista.user,model_hr_situacion_revista,,1,1,1,1
+access_hr_cct_user,access.hr_cct.user,model_hr_cct,,1,1,1,1
+access_hr_salary_user,access.hr.salary.user,model_hr_salary,,1,1,1,1
+access_hr_salary_manager,access.hr.salary.manager,model_hr_salary,hr.group_hr_manager,1,1,1,1
+access_salary_update_wizard,access.salary.update.wizard,model_salary_update_wizard,hr.group_hr_user,1,1,1,1

@@ -1,0 +1,69 @@
+<odoo>
+   <!-- Vista de formulario heredada -->
+   <record id="view_hr_employee_form_extended" model="ir.ui.view">
+       <field name="name">hr.employee.form.extended</field>
+       <field name="model">hr.employee</field>
+       <field name="inherit_id" ref="hr.view_employee_form"/>
+       <field name="arch" type="xml">
+           <notebook position="inside">
+               <page string="Localización Argentina" name="localizacion_arg">
+                   <group>
+                       <group string="Información Básica">
+                           <field name="legajo"/>
+                           <field name="sindicado"/>
+                           <field name="sindicato" modifiers="{'invisible': [('sindicado', '=', False)]}"/>
+                           <field name="compania_aseguradora"/>
+                           <field name="obra_social" options="{'no_open': True}"/>
+                       </group>
+                       <group string="Información Laboral">
+                           <field name="fecha_ingreso"/>
+                           <field name="fecha_egreso"/>
+                           <field name="fecha_accidente"/>
+                           <field name="jornada_laboral"/>
+                           <field name="situacion_revista_id"/>
+                           <field name="marca_cct"/>
+                           <field name="cct"/>
+                           <field name="svo"/>
+                           <field name="corresponde_reduccion"/>
+                       </group>
+                   </group>
+               </page>
+           </notebook>
+       </field>
+   </record>
+
+   <!-- Vista de lista extendida -->
+   <record id="view_employee_tree_extended" model="ir.ui.view">
+       <field name="name">hr.employee.tree.extended</field>
+       <field name="model">hr.employee</field>
+       <field name="inherit_id" ref="hr.view_employee_tree"/>
+       <field name="arch" type="xml">
+           <field name="work_email" position="after">
+               <field name="dias_ausencia"/>
+               <field name="dias_accidente"/>
+               <field name="cantidad_sanciones"/>
+           </field>
+       </field>
+   </record>
+
+   <!-- Vista de búsqueda extendida -->
+   <record id="view_employee_filter_extended" model="ir.ui.view">
+       <field name="name">hr.employee.filter.extended</field>
+       <field name="model">hr.employee</field>
+       <field name="inherit_id" ref="hr.view_employee_filter"/>
+       <field name="arch" type="xml">
+           <search position="inside">
+               <field name="legajo"/>
+               <field name="situacion_revista_id"/>
+               <field name="obra_social"/>
+               <separator/>
+               <filter string="Con Sanciones" name="con_sanciones" domain="[('cantidad_sanciones', '>', 0)]"/>
+               <filter string="Sin Sanciones" name="sin_sanciones" domain="[('cantidad_sanciones', '=', 0)]"/>
+               <group expand="0" string="Agrupar Por">
+                   <filter name="group_by_situacion" string="Situación" domain="[]" context="{'group_by': 'situacion_revista_id'}"/>
+                   <filter name="group_by_obra_social" string="Obra Social" domain="[]" context="{'group_by': 'obra_social'}"/>
+               </group>
+           </search>
+       </field>
+   </record>
+</odoo>

@@ -1,0 +1,98 @@
+<odoo>
+    <!-- Action -->
+    <record id="action_hr_cct" model="ir.actions.act_window">
+        <field name="name">Categorias</field>
+        <field name="res_model">hr.categorias</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="action_hr_cct" model="ir.actions.act_window">
+        <field name="name">CCT</field>
+        <field name="res_model">hr.cct</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- Tree View -->
+    <record id="view_hr_categorias_tree" model="ir.ui.view">
+        <field name="name">hr.categorias.tree</field>
+        <field name="model">hr.categorias</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="cct_id"/>
+                <field name="cct_code" string="CCT Code"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Form View -->
+    <record id="view_hr_categorias_form" model="ir.ui.view">
+        <field name="name">hr.categorias.form</field>
+        <field name="model">hr.categorias</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="cct_id" context="{'show_code': True}" options="{'always_reload': True}">
+                            <tree>
+                                <field name="name"/>
+                                <field name="code"/>
+                            </tree>
+                            <form>
+                                <group>
+                                    <field name="name"/>
+                                    <field name="code"/>
+                                </group>
+                            </form>
+                        </field>
+                        <field name="cct_code" string="CCT Code"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Tree View for CCT -->
+    <record id="view_hr_cct_tree" model="ir.ui.view">
+        <field name="name">hr.cct.tree</field>
+        <field name="model">hr.cct</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="code"/>
+                <field name="name"/>
+                <field name="union_id"/>
+                <field name="activar"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Form View for CCT with Categories -->
+    <record id="view_hr_cct_form" model="ir.ui.view">
+        <field name="name">hr.cct.form</field>
+        <field name="model">hr.cct</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="code"/>
+                        <field name="name"/>
+                        <field name="union_id"/>
+                        <field name="activar"/>
+                    </group>
+                    <notebook>
+                        <page string="Categorías">
+                            <field name="categoria_ids">
+                                <tree>
+                                    <field name="name"/>
+                                    <field name="cct_code"/>
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+</odoo>

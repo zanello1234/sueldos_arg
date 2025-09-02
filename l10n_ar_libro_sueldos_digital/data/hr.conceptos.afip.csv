@@ -1,0 +1,116 @@
+codigo,descripcion
+110000,Sueldo
+110001,Preaviso
+110002,Remuneraciones en especie
+110003,Comida
+110004,Habitación
+110005,Licencias por estudio
+110006,Donación de sangre
+110007,Feriado
+110008,Prest. Dineraria Ley 24577 (primeros 10d)
+110009,Prest. Dineraria Ley 24577 (a cargo de ART)
+110010,Sueldo - Uso para aplicación RG 2252 - Actividades simultáneas
+110011,Incremento solidario - Dec. 14/2020
+111000,A ingresar por el contribuyente
+120000,Sueldo anual complementario
+120001,SAC 1er semestre
+120002,SAC 2do semestre
+120003,SAC proporcional
+120004,SAC - Uso para aplicación RG 2252 - Actividades simultáneas
+121000,A ingresar por el contribuyente - SAC uso libre
+130000,Horas extras
+130001,Horas extras al 50 %
+130002,Horas extras al 100 %
+130003,Horas extras al 200 %
+130004,Horas extras - Uso para aplicación RG 2252 - Actividades simultáneas
+131000,A ingresar por contribuyente - Horas extras - De uso libre
+140000,Zona desfavorable
+140001,Zona desfavorable - Uso para aplicación RG 2252 - Actividades simultáneas
+141000,A ingresar por el contribuyente- Zona desfavorable - De uso libre
+150000,Adelanto vacacional
+150001,Adelanto vacacional - Uso para aplicación RG 2252 - Actividades simultáneas
+151000,A ingresar por el contribuyente - Adelanto vacacional - De uso libre
+160000,Adicionales
+160001,Adicional por antigüedad
+160002,Adicional por título
+160003,Adicional por tarea
+160004,Adicional por desarraigo
+160005,Adicionales - Uso para aplicación RG 2252 - Actividades simultáneas
+161000,A ingresar por el contribuyente- Adicionales - De uso libre
+170000,Gratificaciones y/o Premios
+170001,Premio por presentismo
+170002,Premio por producción
+170003,Comisiones
+170004,Accesorios
+170005,Viáticos sin comprobante
+170006,Propinas habituales no prohibidas
+170007,Gratificaciones y/o Premios - Uso para aplicación RG 2252 - Actividades simultáneas
+171000,A ingresar por el contribuyente -Gratificaciones y/o Premios - De uso libre
+180000,Rectificativa por remuneración Ley 27.742.
+499999,Redondeo (Remunerativo)
+510000,Asignaciones Familiares
+510001,Ayuda escolar
+510002,Asignación por hijo/hijo con discapacidad
+510003,Asignación por maternidad
+510004,Asignación por maternidad down
+510005,Asignación por matrimonio
+510006,Asignación por nacimiento / adopción
+510007,Asignación por prenatal
+511000,A ingresar por el contribuyente -Asignaciones Familiares - De uso libre
+520000,Beneficios sociales
+520001,Servicio de comedor
+520002,Gastos médicos
+520003,Provisión de ropa de trabajo
+520004,Guardería
+520005,Provisión de útiles escolares
+520006,Gastos de sepelio
+520007,Cursos de capacitación
+520008,Becas (art. 7 Ley 24.241 y modif.)
+520009,Desempleo (art. 7 Ley 24.241 y modif.)
+520010,Gratificación por cese laboral (art. 7 Ley 24.241 y modif.)
+520011,Indemnización por extinción del contrato de trabajo (art. 7 Ley 24.241 y modif.)
+520012,Vacaciones no gozadas (art. 7 Ley 24.241 y modif.)
+520013,Incapacidad permanente (art. 7 Ley 24.241 y modif.)
+520014,Indemización por despido
+520015,Indemización sustitutiva del preaviso
+520016,Integración mes de despido
+520017,SAC sobre integración o preaviso
+520018,SAC sobre vacaciones no gozadas
+521000,A ingresar por el contribuyente - Beneficios sociales - De uso libre
+530000,Incrementos no remunerativos (con aportes OS)
+531000,A ingresar por el contribuyente- Incrementos no remunerativos (con aportes OS) - De uso libre
+540000,Incrementos no remunerativos (con aportes y contribuciones OS)
+541000,A ingresar por el contribuyente - Incrementos no remunerativos (con aportes y contribuciones OS) - De uso libre
+550000,Importes no remunerativos especiales
+551000,A ingresar por el contribuyente -Importes no remunerativos especiales - De uso libre
+560000,Mensual - PPC y CCT Especiales
+560001,SAC - PPC y CCT Especiales
+560002,SAC  Proporcional- PPC y CCT Especiales
+560003,Vacaciones - PPC y CCT Especiales
+560004,"Asign. dineraria progr. sociales, educativos o empleo - Dec. 551/2022"
+560005,Asign. No remunerativa Dec 841/2022
+560006,Asignación no Remunerativa Dcto 438/2023
+570000,Mensual - Remuneración No Contributiva al Régimen Nacional de Seguridad Social
+570001,SAC - Remuneración No Contributiva al Régimen Nacional de Seguridad Socia
+570002,SAC Proporcional - Remuneración No Contributiva al Régimen Nacional de Seguridad Social
+570003,Vacaciones - Remuneración No Contributiva al Régimen Nacional de Seguridad Social
+799999,Redondeo (No Remunerativo)
+810000,Sistema previsional
+810001,INSSJyP
+810002,Obra Social
+810003,Fondo Solidario de Redistribución (ex ANSSAL)
+810004,Cuota Sindical
+810005,Seguro de Vida
+810006,RENATEA (ex RENATRE)
+810007,Préstamos
+810008,Impuesto a las Ganancias
+810009,Obra Social - Adherentes
+810010,Fondo Solidario de Redistribución (ex ANSSAL) - Adherentes
+810011,Ajuste Aporte Dec. 561/2019
+810012,Salario complementario. Dec 332/2020
+810013,SAC - Ajuste Bases imponibles
+810014,"Pago a cuenta Asign. dineraria progr. sociales, educativos o empleo - Dec. 551/2022"
+810015,Sistema previsional no nacional
+810016,Obra Social provincial
+820000,Otros descuentos
+821000,A ingresar por el contribuyente Otros descuentos - De uso libre

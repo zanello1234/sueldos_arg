@@ -1,0 +1,23 @@
+<odoo>
+
+    <!-- Acción -->
+    <record id="action_hr_union" model="ir.actions.act_window">
+        <field name="name">Sindicato</field>
+        <field name="res_model">hr.union</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    
+    <!-- Vista de lista -->
+    <record id="view_hr_union_tree" model="ir.ui.view">
+        <field name="name">hr.union.tree</field>
+        <field name="model">hr.union</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" />
+                <field name="code" />
+                <field name="active" />
+            </tree>
+        </field>
+    </record>
+
+</odoo>
